@@ -328,14 +328,14 @@ $EndComp
 $Comp
 L Analog_Switch:MAX323CPA U?
 U 1 1 614079DA
-P 3700 2925
+P 3700 3675
 AR Path="/614079DA" Ref="U?"  Part="2" 
 AR Path="/613E3CCC/614079DA" Ref="U6"  Part="1" 
-F 0 "U6" V 3654 3055 50  0000 L CNN
-F 1 "MAX4731EUA+-ND" V 3745 3055 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3700 2825 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 3700 2925 50  0001 C CNN
-	1    3700 2925
+F 0 "U6" V 3654 3805 50  0000 L CNN
+F 1 "MAX4731EUA+-ND" V 3745 3805 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3700 3575 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 3700 3675 50  0001 C CNN
+	1    3700 3675
 	0    1    1    0   
 $EndComp
 $Comp
@@ -354,15 +354,15 @@ $EndComp
 $Comp
 L Analog_Switch:MAX324CPA U?
 U 1 1 614079E6
-P 3700 3675
+P 4825 3300
 AR Path="/614079E6" Ref="U?"  Part="1" 
 AR Path="/613E3CCC/614079E6" Ref="U7"  Part="1" 
-F 0 "U7" V 3654 3805 50  0000 L CNN
-F 1 "MAX4732EUA+-ND" V 3745 3805 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3700 3575 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 3700 3675 50  0001 C CNN
-	1    3700 3675
-	0    1    1    0   
+F 0 "U7" V 4779 3430 50  0000 L CNN
+F 1 "MAX4732EUA+-ND" V 4870 3430 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4825 3200 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 4825 3300 50  0001 C CNN
+	1    4825 3300
+	-1   0    0    1   
 $EndComp
 $Comp
 L Analog_Switch:MAX324CPA U?
@@ -525,14 +525,14 @@ Wire Wire Line
 $Comp
 L Analog_Switch:MAX324CPA U?
 U 2 1 614079EC
-P 4825 3300
+P 3700 2925
 AR Path="/614079EC" Ref="U?"  Part="2" 
 AR Path="/613E3CCC/614079EC" Ref="U7"  Part="2" 
-F 0 "U7" H 4825 3475 50  0000 C CNN
-F 1 "MAX4732EUA+-ND" H 4825 3566 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4825 3200 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 4825 3300 50  0001 C CNN
-	2    4825 3300
-	-1   0    0    1   
+F 0 "U7" H 3700 3100 50  0000 C CNN
+F 1 "MAX4732EUA+-ND" H 3700 3191 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3700 2825 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf" H 3700 2925 50  0001 C CNN
+	2    3700 2925
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
